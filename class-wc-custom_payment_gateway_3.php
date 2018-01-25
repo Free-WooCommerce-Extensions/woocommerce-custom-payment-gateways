@@ -13,7 +13,7 @@ class WC_Custom_Payment_Gateway_3 extends WC_Payment_Gateway {
     public function __construct() {
         global $woocommerce;
 
-        $this->id             = 'wcCpg3';
+        $this->id             = 'wccpg3';
         $this->icon           = apply_filters( 'woocommerce_wcCpg3_icon', '' );
         $this->has_fields     = false;
         $this->method_title   = __( 'Custom Payment Gateways 3', 'wcwcCpg3' );
